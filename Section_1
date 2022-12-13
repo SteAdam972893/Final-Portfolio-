@@ -1,0 +1,41 @@
+# section 1
+# Steve Marin
+# 11/29/2022
+# Game begins
+
+# import main character and section 2 here
+import Main_character
+import Section_2
+
+def start ():
+    print("Elle needs to make up what is she going to do as she is terrified! The wizard mentions he wants something from her she is then confused.")
+    while True:
+        Answer = int(input("Decide 1.Attack, 2.Run 3.Hide 4.Talk"))
+        if Answer == 1:
+            print("Wizard attacks backs and kidnaps elle ")
+        elif Answer == 2:
+            print(" elle escapes out the room and wizard chases her")
+        elif Answer == 3:
+            print("elle hides and evades the wizard.")
+            Section_2.start()
+        elif Answer == 4:
+            print("You try to talk to wizard but you have three options")
+            Kite = False
+            while Kite  == False:
+
+                The = input("1.Question why he broke in , 2. elle greets the wizard, 3. elle asks what he wants from her")
+                if The == "1":
+                    print("1.He wants her gold necklace her parents own that belongs to him")
+                elif The == "2":
+                    print("he get's confused why she is being nice and hugs elle")
+                    print("Elle hops on the wizard's magic carpet after the hug")
+                    Kite = True
+                else:
+                    print("I want your soul so you better run")
+        else:
+            print("I will carve up your bones and feed you to my children the wizard sniffs elle out and she dies.")
+            quit("the wizard kills you ")
+    #The wizard kills elle and carves her bones for people to eat
+    # Section_2.start()
+
+    # start()
