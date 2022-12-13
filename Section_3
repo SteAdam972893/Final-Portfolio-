@@ -1,0 +1,24 @@
+# Section 3
+# Steve Marin
+# 12/5/2022
+# game continues to run and tim is on his way to find elle
+import Main_character
+import Section_4
+
+def start():
+
+        print("Tim and John find a letter outside there home")
+        answer = int(input("decide 1. pick up letter,2.avoid letter, 3.loose letter"))
+        if answer == 1:
+            # what the letter says inside
+            print("I am the wizard i have taken elle because she has something I want.I will be dropping clues around in order for you to find her")
+
+
+
+        elif answer == 2:
+            print("You find elle but spiderman appears")
+         # Spiderman makes a special appearance
+        else:
+            print("no saving elle")
+            quit()
+        Section_4.start()
