@@ -1,0 +1,11 @@
+#spiderman appears to save elle
+
+def start():
+    print("I am spiderman I am here to save you elle get back")
+    killer_claw = int(input("1. Fuse with spiderman 2. fight Spiderman 3. Kill the wizard with spiderman"))
+    if killer_claw == 1:
+        print(" You fuse with spiderman and start slinging around the world")
+    elif killer_claw == 2:
+        print("You try to fight spiderman and he just keeps saying web sling lift off.")
+    else:
+        ("You kill the Wizard and the game do your secret dance put your hands on your head and move your body")

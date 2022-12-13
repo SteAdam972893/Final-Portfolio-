@@ -1,0 +1,20 @@
+# Main character
+# Steve Marin
+# 12/5/2021
+# Declare main characters variables and attributes
+# collection of clues
+
+class MainCharacter:
+    Name = "tim"
+    earing = False
+    letter = False
+    shoe = False
+    bracelet = False
+    clues = []
+
+global Name
+global earing
+global letter
+global shoe
+global bracelet
+global clues

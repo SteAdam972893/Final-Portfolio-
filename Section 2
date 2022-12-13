@@ -1,0 +1,27 @@
+# Section 2
+# Steve Marin
+# 12/5/2022
+# The game continues with what's going on with elle and the wizard
+
+import Main_character
+import Section_3
+def start():
+    print("Elle is on the wizards magic carpet and john calls his friend tim to explain what has happened.The wiz drops off hints that John and tim will find her")
+    Answer = int(input("Decide 1.jump off carpet,2.call john for help "))
+    if Answer == 1:
+            print("you die and lose")
+            quit()
+    elif Answer == 2:
+            print("John and tim are off to the rescue to help elle by looking at the clues the wizard is throwing at them")
+
+            print("The wizard drops off letter with hints on where he has elle")
+
+# wizard wants tim and john to find elle
+
+
+            Section_3.start()
+
+
+    # Section_3.start()
+
+    # start()
